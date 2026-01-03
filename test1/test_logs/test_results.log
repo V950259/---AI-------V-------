@@ -1,0 +1,86 @@
+[INFO] 
+[INFO] 1 problem was encountered while building the effective settings (use -e to see details)
+[INFO] 
+[WARNING] Unable to find the root directory. Create a .mvn directory in the root directory or add the root="true" attribute on the root project's model to identify it.
+[INFO] Scanning for projects...
+[INFO] Loaded 21783 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[WARNING] 
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-admin:jar:3.9.0' (use -e to see details)
+[WARNING] 
+[WARNING] Total model problems reported: 42
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< com.ruoyi:ruoyi-admin >------------------------
+[INFO] Building ruoyi-admin 3.9.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots-c1d4c55f9308e5ac18a4069bed41dca64d85c515.txt)
+[WARNING] Version not locked for default bindings plugins [maven-resources-plugin], you should define versions in pluginManagement section of your pom.xml or parent
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-generator:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-quartz:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-framework:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-system:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-common:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to terracotta-snapshots-575dc13942327fc0c4e3bca2803acde8ec93c5ef (http://www.terracotta.org/download/reflector/snapshots): HTTP Status: 403
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to maven-restlet-a7f6e104fe5de5416be9b34dad3a5b4250c17089 (https://maven.restlet.org): Checksum validation failed, expected '<!DOCTYPE' (REMOTE_EXTERNAL) but is actually '2732bfa71df29d73fc4cf128b5217459e5b6ae58'
+[INFO] Loaded 3 auto-discovered prefixes for remote repository jvnet-nexus-releases (prefixes-jvnet-nexus-releases-a5d540dd75d8efce5a7e6a5ccab82bab11416135.txt)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to spring-libs-release-57e3c2a1a1e640c1b2210cd5477b574735ef7b6c (https://repo.spring.io/libs-release): HTTP Status: 401
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to spring-libs-snapshot-e9d2972af832007faaf434a8b3ac0c5f1fee6ec2 (https://repo.spring.io/libs-snapshot): HTTP Status: 401
+[INFO] Loaded 881 auto-discovered prefixes for remote repository apache-releases-repo (prefixes-apache-releases-repo-bed632bbf7d576a26ac4393b720aa2cce7b167f0.txt)
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ruoyi-admin ---
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ ruoyi-admin ---
+[INFO] Loaded 4 auto-discovered prefixes for remote repository plexus.snapshots (prefixes-plexus.snapshots-9dedea94451709299d055319c137abeb30aacdef.txt)
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ruoyi-admin ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ ruoyi-admin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ ruoyi-admin ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.ruoyi.e2e.AuthApiE2ETest
+[INFO] [stdout] 19:53:11.173 [main] INFO  com.ruoyi.base.BaseApiTest - ÉèÖÃÈ«¾ÖAPI²âÊÔÅäÖÃ...
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.329 s <<< FAILURE! - in com.ruoyi.e2e.AuthApiE2ETest
+[ERROR] com.ruoyi.e2e.AuthApiE2ETest  Time elapsed: 0.329 s  <<< ERROR!
+java.lang.NoClassDefFoundError: io/restassured/path/xml/mapper/factory/JakartaEEObjectMapperFactory
+Caused by: java.lang.ClassNotFoundException: io.restassured.path.xml.mapper.factory.JakartaEEObjectMapperFactory
+
+[INFO] Running com.ruoyi.e2e.UserApiE2ETest
+[INFO] [stdout] 19:53:11.375 [main] INFO  com.ruoyi.base.BaseApiTest - ÉèÖÃÈ«¾ÖAPI²âÊÔÅäÖÃ...
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.ruoyi.e2e.UserApiE2ETest
+[ERROR] com.ruoyi.e2e.UserApiE2ETest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: io/restassured/path/xml/mapper/factory/JakartaEEObjectMapperFactory [in thread "main"]
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   AuthApiE2ETest>BaseApiTest.globalApiSetup:33 ? NoClassDefFound io/restassured/...
+[ERROR]   UserApiE2ETest>BaseApiTest.globalApiSetup:33 ? NoClassDefFound Could not initi...
+[INFO] 
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to c:\Users\V\Desktop\test-repository\RuoYi-Vue\ruoyi-admin\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.400 s
+[INFO] Finished at: 2025-12-15T19:53:11+08:00
+[INFO] ------------------------------------------------------------------------

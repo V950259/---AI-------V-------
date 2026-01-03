@@ -1,0 +1,141 @@
+[INFO] 
+[INFO] 1 problem was encountered while building the effective settings (use -e to see details)
+[INFO] 
+[WARNING] Unable to find the root directory. Create a .mvn directory in the root directory or add the root="true" attribute on the root project's model to identify it.
+[INFO] Scanning for projects...
+[INFO] Loaded 21783 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[WARNING] 
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-admin:jar:3.9.0' (use -e to see details)
+[WARNING] 
+[WARNING] Total model problems reported: 42
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from public: https://maven.aliyun.com/repository/public/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from public: https://maven.aliyun.com/repository/public/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 10 kB                   [WARNING] Checksum validation failed, expected '9b398666e685d6d2f6596a6d14d811e7f42037fe' (REMOTE_EXTERNAL) but is actually '3bf17e27e8e75c9a429f605445549ca5de32a0fd' from public for https://maven.aliyun.com/repository/public/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 4.8/10 kBProgress (1): 10 kB                       Downloading from public: https://maven.aliyun.com/repository/public/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 1.9/21 kBProgress (1): 18/21 kB Progress (1): 21 kB                      Downloaded from public: https://maven.aliyun.com/repository/public/org/codehaus/mojo/maven-metadata.xml (21 kB at 148.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 0.9/14 kBProgress (1): 2.3/14 kBProgress (1): 3.7/14 kBProgress (1): 5.0/14 kBProgress (2): 5.0/14 kB | 249 BProgress (2): 6.4/14 kB | 249 BProgress (2): 7.8/14 kB | 249 BProgress (2): 9.1/14 kB | 249 BProgress (2): 11/14 kB | 249 B Progress (2): 11/14 kB | 249 BProgress (2): 13/14 kB | 249 BProgress (2): 14/14 kB | 249 BProgress (2): 14 kB | 249 B                              Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 306.5 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 17.6 kB/s)
+Progress (1): 250 B                   Downloaded from public: https://maven.aliyun.com/repository/public/org/springframework/boot/maven-metadata.xml (250 B at 277.9 B/s)
+Progress (1): 1.0/21 kBProgress (1): 2.4/21 kBProgress (1): 3.8/21 kBProgress (1): 4.1/21 kBProgress (1): 5.5/21 kBProgress (1): 6.8/21 kBProgress (1): 8.2/21 kBProgress (1): 9.6/21 kBProgress (1): 11/21 kB Progress (1): 12/21 kBProgress (1): 14/21 kBProgress (1): 15/21 kBProgress (1): 16/21 kBProgress (1): 18/21 kBProgress (1): 19/21 kBProgress (1): 21/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 22.2 kB/s)
+[WARNING] Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to public (https://maven.aliyun.com/repository/public): Checksum validation failed, expected '9b398666e685d6d2f6596a6d14d811e7f42037fe' (REMOTE_EXTERNAL) but is actually '3bf17e27e8e75c9a429f605445549ca5de32a0fd'
+[INFO] 
+[INFO] -----------------------< com.ruoyi:ruoyi-admin >------------------------
+[INFO] Building ruoyi-admin 3.9.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] org.apache.maven.plugins/maven-metadata.xml failed to transfer from https://maven.aliyun.com/repository/public during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of public has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to public (https://maven.aliyun.com/repository/public): Checksum validation failed, expected '9b398666e685d6d2f6596a6d14d811e7f42037fe' (REMOTE_EXTERNAL) but is actually '3bf17e27e8e75c9a429f605445549ca5de32a0fd'
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots-c1d4c55f9308e5ac18a4069bed41dca64d85c515.txt)
+[INFO] 
+[INFO] >>> spring-boot:2.5.15:run (default-cli) > test-compile @ ruoyi-admin >>>
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-framework:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-quartz:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-generator:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-system:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] 42 problems were encountered while building the effective model for 'com.ruoyi:ruoyi-common:jar:3.9.0' during dependency collection step for project (use -X to see details)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to terracotta-snapshots-575dc13942327fc0c4e3bca2803acde8ec93c5ef (http://www.terracotta.org/download/reflector/snapshots): HTTP Status: 403
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to maven-restlet-a7f6e104fe5de5416be9b34dad3a5b4250c17089 (https://maven.restlet.org): Checksum validation failed, expected '<!DOCTYPE' (REMOTE_EXTERNAL) but is actually '2732bfa71df29d73fc4cf128b5217459e5b6ae58'
+[INFO] Loaded 3 auto-discovered prefixes for remote repository jvnet-nexus-releases (prefixes-jvnet-nexus-releases-a5d540dd75d8efce5a7e6a5ccab82bab11416135.txt)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to spring-libs-release-57e3c2a1a1e640c1b2210cd5477b574735ef7b6c (https://repo.spring.io/libs-release): HTTP Status: 401
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to spring-libs-snapshot-e9d2972af832007faaf434a8b3ac0c5f1fee6ec2 (https://repo.spring.io/libs-snapshot): HTTP Status: 401
+[INFO] Loaded 881 auto-discovered prefixes for remote repository apache-releases-repo (prefixes-apache-releases-repo-bed632bbf7d576a26ac4393b720aa2cce7b167f0.txt)
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ruoyi-admin ---
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ ruoyi-admin ---
+[INFO] Loaded 4 auto-discovered prefixes for remote repository plexus.snapshots (prefixes-plexus.snapshots-9dedea94451709299d055319c137abeb30aacdef.txt)
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ruoyi-admin ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ ruoyi-admin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:2.5.15:run (default-cli) < test-compile @ ruoyi-admin <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:2.5.15:run (default-cli) @ ruoyi-admin ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot-5e328756557038a91259067cc77ee9007bc61307.txt)
+[INFO] Attaching agents: []
+Application Version: 3.9.0
+Spring Boot Version: 2.5.15
+////////////////////////////////////////////////////////////////////
+//                          _ooOoo_                               //
+//                         o8888888o                              //
+//                         88" . "88                              //
+//                         (| ^_^ |)                              //
+//                         O\  =  /O                              //
+//                      ____/`---'\____                           //
+//                    .'  \\|     |//  `.                         //
+//                   /  \\|||  :  |||//  \                        //
+//                  /  _||||| -:- |||||-  \                       //
+//                  |   | \\\  -  /// |   |                       //
+//                  | \_|  ''\---/''  |   |                       //
+//                  \  .-\__  `-`  ___/-. /                       //
+//                ___`. .'  /--.--\  `. . ___                     //
+//              ."" '<  `.___\_<|>_/___.'  >'"".                  //
+//            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
+//            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
+//      ========`-.____`-.___\_____/___.-`____.-'========         //
+//                           `=---='                              //
+//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
+//             佛祖保佑       永不宕机      永无BUG               //
+////////////////////////////////////////////////////////////////////
+19:52:53.228 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+19:52:53.231 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 23.0.2 on LAPTOP-BQ0T52ND with PID 49044 (C:\Users\V\Desktop\test-repository\RuoYi-Vue\ruoyi-admin\target\classes started by V in c:\Users\V\Desktop\test-repository\RuoYi-Vue\ruoyi-admin)
+19:52:53.233 [restartedMain] DEBUG c.r.RuoYiApplication - [logStarting,56] - Running with Spring Boot v2.5.15, Spring v5.3.39
+19:52:53.234 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+19:52:54.726 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-8080"]
+19:52:54.726 [restartedMain] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+19:52:54.728 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+19:52:54.792 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+19:52:55.112 [restartedMain] DEBUG c.r.f.s.f.JwtAuthenticationTokenFilter - [init,242] - Filter 'jwtAuthenticationTokenFilter' configured for use
+19:52:55.694 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1002] - {dataSource-1} inited
+19:52:56.067 [restartedMain] DEBUG c.r.s.m.S.selectConfigList - [debug,135] - ==>  Preparing: select config_id, config_name, config_key, config_value, config_type, create_by, create_time, update_by, update_time, remark from sys_config
+19:52:56.171 [restartedMain] DEBUG c.r.s.m.S.selectConfigList - [debug,135] - ==> Parameters: 
+19:52:56.220 [restartedMain] DEBUG c.r.s.m.S.selectConfigList - [debug,135] - <==      Total: 0
+19:52:56.306 [restartedMain] DEBUG c.r.s.m.S.selectDictDataList - [debug,135] - ==>  Preparing: select dict_code, dict_sort, dict_label, dict_value, dict_type, css_class, list_class, is_default, status, create_by, create_time, remark from sys_dict_data WHERE status = ? order by dict_sort asc
+19:52:56.314 [restartedMain] DEBUG c.r.s.m.S.selectDictDataList - [debug,135] - ==> Parameters: 0(String)
+19:52:56.326 [restartedMain] DEBUG c.r.s.m.S.selectDictDataList - [debug,135] - <==      Total: 11
+19:52:56.945 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+19:52:56.952 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+19:52:56.952 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+19:52:56.953 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+19:52:56.954 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+19:52:56.954 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+19:52:56.954 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+19:52:56.954 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@75bd6c55
+19:52:56.971 [restartedMain] DEBUG c.r.q.m.S.selectJobAll - [debug,135] - ==>  Preparing: select job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark from sys_job
+19:52:56.971 [restartedMain] DEBUG c.r.q.m.S.selectJobAll - [debug,135] - ==> Parameters: 
+19:52:56.975 [restartedMain] DEBUG c.r.q.m.S.selectJobAll - [debug,135] - <==      Total: 0
+19:52:57.889 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-8080"]
+19:52:58.033 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+19:52:58.039 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,61] - Started RuoYiApplication in 5.09 seconds (JVM running for 5.544)
+(????)??  若依启动成功   ?(??`?)?  
+ .-------.       ____     __        
+ |  _ _   \      \   \   /  /    
+ | ( ' )  |       \  _. /  '       
+ |(_ o _) /        _( )_ .'         
+ | (_,_).' __  ___(_ o _)'          
+ |  |\ \  |  ||   |(_,_)'         
+ |  | \ `'   /|   `-'  /           
+ |  |  \    /  \      /           
+ ''-'   `'-'    `-..-'              
+19:52:58.418 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring DispatcherServlet 'dispatcherServlet'
