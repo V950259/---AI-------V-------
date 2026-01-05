@@ -1,6 +1,8 @@
 通过调试costrict，对ruoyi管理系统生成四种测试方案（含测试用例、运行脚本及测试日志），展示多种形式生成报告，同时相互印证增加准确性，四种均可通过将test文件夹拖入VScode中让costrict运行.bat脚本或直接在cmd里以管理员身份运行。
+
 每个test文件夹下面均有readme.md说明mode以及提示词，总体采用架构如下：
-flowchart LR
+
+    flowchart LR
     A[用户 / 开发者] -->|触发| B[/auto_test_start]
 
     B --> C[CoStrict Orchestrator<br/>任务编排中枢]
